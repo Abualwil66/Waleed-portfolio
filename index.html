@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Waleed Bakri — IT Graduate & Web Developer</title>
+<meta name="description" content="Portfolio of Waleed Khaled Bakri — Information Technology graduate specializing in web development, digital transformation, and cybersecurity." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<canvas id="bg-canvas"></canvas>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo">WB<span class="dot">.</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-ghost resume-link" href="assets/Waleed_Bakri_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+  <button class="burger" id="burger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow reveal">Hello, I'm</p>
+      <h1 class="reveal">Waleed Khaled Bakri</h1>
+      <h2 class="typing reveal" id="typingText"></h2>
+      <p class="hero-desc reveal">
+        Information Technology graduate from the Islamic University of Madinah,
+        building clean web experiences and supporting digital transformation
+        initiatives aligned with Saudi Digital Government Authority standards.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-socials reveal">
+        <a href="https://github.com/Abualwil66" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.27-.01-1.16-.02-2.1-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.04-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14 0 1.54-.02 2.79-.02 3.17 0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/waleed-bakri-b467942aa/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+        </a>
+        <a href="mailto:waleedbakri@icloud.com" aria-label="Email" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm19 2.4-9 6.75-9-6.75V19h18V6.4ZM3.4 5l8.6 6.45L20.6 5H3.4Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-cue"><span></span></div>
+  </section>
+
+  <section id="about" class="section">
+    <p class="section-tag reveal">01 — About</p>
+    <h2 class="section-title reveal">A bit about me</h2>
+    <div class="about-grid">
+      <p class="about-text reveal">
+        I'm an IT graduate (expected May 2026) from the Islamic University of Madinah,
+        currently working as a <strong>Digital Transformation Trainee</strong> where I help
+        prepare and organize compliance documentation aligned with Saudi Digital Government
+        Authority (DGA) standards — covering Innovation, Research, Quality, and Digital
+        Excellence assessment areas. Alongside that, I build web applications and explore
+        cybersecurity, always looking for ways to make systems more efficient and secure.
+      </p>
+      <div class="about-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-target="200">0</span>
+          <span class="stat-label">Training hours completed</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="4">0</span>
+          <span class="stat-label">DGA assessment areas supported</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="2026">0</span>
+          <span class="stat-label">Graduation year</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <p class="section-tag reveal">02 — Skills</p>
+    <h2 class="section-title reveal">What I work with</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">🐍</div>
+        <h3>Python Programming</h3>
+        <p>Scripting, automation, and backend logic.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌐</div>
+        <h3>Web Development</h3>
+        <p>Building and deploying full web platforms end-to-end.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🛡️</div>
+        <h3>Ethical Hacking & Cybersecurity</h3>
+        <p>Security-first thinking applied to real systems.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">☁️</div>
+        <h3>Cloud Services</h3>
+        <p>Deploying and managing cloud-hosted applications.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🏛️</div>
+        <h3>Digital Transformation</h3>
+        <p>DGA-aligned compliance, evidence, and process documentation.</p>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🧩</div>
+        <h3>Problem Solving</h3>
+        <p>Analytical approach to research and technical documentation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <p class="section-tag reveal">03 — Projects</p>
+    <h2 class="section-title reveal">Things I've built</h2>
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="assets/images/project-goaltracker.jpg" alt="Goal Trade Tracker dashboard preview" loading="lazy" />
+        </div>
+        <div class="project-body">
+          <h3>Goal Trade Tracker</h3>
+          <p>A SwiftUI iOS app for setting personal/financial goals and logging trades against them — dashboard, goal management, and trade history in one place.</p>
+          <div class="tags">
+            <span>Swift</span><span>SwiftUI</span><span>iOS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Abualwil66" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-media">
+          <img src="assets/images/project-goaltracker-2.jpg" alt="Goal Trade Tracker trading view preview" loading="lazy" />
+        </div>
+        <div class="project-body">
+          <h3>Haram Educational Management System</h3>
+          <p>Graduation project: a web platform for managing student/instructor leave requests, with a database tracking Quran recitation chains (Isnad) and an automated tree-generation Ijazah certificate system.</p>
+          <div class="tags">
+            <span>Web App</span><span>Database Design</span><span>System Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Abualwil66" target="_blank" rel="noopener">View on GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <p class="section-tag reveal">04 — Experience</p>
+    <h2 class="section-title reveal">Where I've worked</h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Dec 2025 – May 2026</span>
+          <h3>Digital Transformation Trainee</h3>
+          <p class="timeline-org">Islamic University of Madinah, Madinah, Saudi Arabia</p>
+          <ul>
+            <li>Prepared and organized documentation for compliance with Saudi DGA standards.</li>
+            <li>Contributed evidence files across Innovation, Research, Quality, and Digital Excellence.</li>
+            <li>Managed a large volume of compliance and assessment documents for institutional digital maturity initiatives.</li>
+            <li>Completed 200 academic training hours, continuing voluntarily beyond the requirement.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Obtained: May 2026</span>
+          <h3>B.Sc. Information Technology</h3>
+          <p class="timeline-org">Islamic University of Madinah, Madinah, Saudi Arabia</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <p class="section-tag reveal">05 — Contact</p>
+    <h2 class="section-title reveal">Let's work together</h2>
+    <p class="contact-desc reveal">
+      Open to opportunities in IT, digital transformation, cybersecurity, or web development.
+      Feel free to reach out — I'll get back to you as soon as I can.
+    </p>
+
+    <form class="contact-form reveal" id="contactForm" action="https://formsubmit.co/waleedbakri@icloud.com" method="POST">
+      <input type="hidden" name="_subject" value="New message from portfolio site" />
+      <input type="hidden" name="_captcha" value="false" />
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+      </div>
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+
+    <div class="contact-alt reveal">
+      <a href="mailto:waleedbakri@icloud.com">waleedbakri@icloud.com</a>
+      <span>•</span>
+      <a href="tel:+966564845851">+966 56 484 5851</a>
+      <span>•</span>
+      <span>Madinah, Saudi Arabia</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Waleed Khaled Bakri. Built with care.</p>
+  <div class="footer-socials">
+    <a href="https://github.com/Abualwil66" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/waleed-bakri-b467942aa/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="assets/Waleed_Bakri_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
