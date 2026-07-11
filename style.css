@@ -383,6 +383,7 @@ img { max-width: 100%; display: block; }
 .project-card:hover .project-media img { transform: scale(1.06); }
 
 .project-body { padding: 1.6rem; }
+.project-card--no-media .project-body { padding: 2.2rem 1.8rem; }
 .project-body h3 { font-size: 1.2rem; margin-bottom: 0.6rem; }
 .project-body p { color: var(--text-dim); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1rem; }
 
